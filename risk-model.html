@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Risk Score Model</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+  <h1>Risk Score Model (0–100)</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="methods.html">Methods</a>
+  <a href="risk-model.html">Risk Score Model</a>
+  <a href="visualizations.html">Visualizations</a>
+  <a href="findings.html">Findings</a>
+  <a href="downloads.html">Downloads</a>
+</nav>
+
+<section>
+  <h2>Model Overview</h2>
+  <p>
+    The risk score model converts predicted incident counts into a normalized, comparable 
+    measure of workplace safety risk across states and months. The final score incorporates 
+    workforce normalization, severity weighting, uncertainty adjustments, and temporal 
+    smoothing, producing a robust and actionable 0–100 metric.
+  </p>
+
+  <h2>Risk Model Figure</h2>
+  <img src="images/risk_model_figure.png" alt="Risk Model Diagram" class="full-img">
+
+  <h2>Risk Model Matrix</h2>
+  <p>Below is the operational matrix outlining meaning and recommended actions:</p>
+
+  <table>
+    <tr><th>Score</th><th>Level</th><th>Interpretation</th></tr>
+    <tr><td>0–9</td><td>Very Low</td><td>Minimal expected incidents</td></tr>
+    <tr><td>10–29</td><td>Low</td><td>Seasonal increases possible</td></tr>
+    <tr><td>30–49</td><td>Moderate</td><td>Elevated risk vs baseline</td></tr>
+    <tr><td>50–69</td><td>High</td><td>Clear elevated risk</td></tr>
+    <tr><td>70–89</td><td>Very High</td><td>Systemic risk present</td></tr>
+    <tr><td>90–100</td><td>Critical</td><td>Immediate attention required</td></tr>
+  </table>
+
+</section>
+
+<footer>
+  <p>© 2025 Jasmine Buckley-Williams</p>
+</footer>
+
+</body>
+</html>
