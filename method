@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Methods & Tools</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+  <h1>Data Sources, Tools & Methodology</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="methods.html">Methods</a>
+  <a href="risk-model.html">Risk Score Model</a>
+  <a href="visualizations.html">Visualizations</a>
+  <a href="findings.html">Findings</a>
+  <a href="downloads.html">Downloads</a>
+</nav>
+
+<section>
+  <h2>Data Source</h2>
+  <p>
+    The OSHA Severe Injury dataset (2015–2022) contains thousands of employer-reported 
+    records documenting amputations, hospitalizations, fractures, and other significant injuries. 
+    Each record includes the event date, location, employer, injury type, and severity indicators.
+  </p>
+
+  <h2>Tools Used</h2>
+  <h3>Tableau</h3>
+  <p>
+    Tableau was used for exploratory visualization and dashboard development. Its geospatial 
+    features enabled mapping incident trends across states and cities, while interactive filters 
+    provided insights into employer-level patterns, injury types, and seasonal behavior.
+  </p>
+
+  <h3>R Studio</h3>
+  <p>
+    R Studio supported data cleaning, statistical modeling, prediction, and risk score 
+    construction. Using packages such as <i>dplyr</i>, <i>lubridate</i>, and <i>MASS</i>, the analysis 
+    included Negative Binomial regression modeling, forecast generation, and risk score 
+    computation with severity weighting, uncertainty adjustments, and temporal smoothing.
+  </p>
+
+  <h2>Methodological Workflow</h2>
+  <ol>
+    <li>Data Cleaning & Aggregation</li>
+    <li>Exploratory Visualization</li>
+    <li>Poisson & Negative Binomial Regression Modeling</li>
+    <li>36-month Forecasting (2023–2025)</li>
+    <li>Risk Score Development & Validation</li>
+  </ol>
+</section>
+
+<footer>
+  <p>© 2025 Jasmine Buckley-Williams</p>
+</footer>
+
+</body>
+</html>
